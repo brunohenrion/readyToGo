@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
+import logo from "./components/img/logo.svg";
+import Header from "./components/Header";
+import Button from "./components/Column";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+      <Header pic={logo} name="Ready To Go" />
+
+      <main>
+        <div className="group">
+          <Button />
+        </div>
+      </main>
+      <footer>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Made with <span>React</span> at <span>Le Reacteur</span> by
+          <span> Brice</span>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </footer>
     </div>
   );
-}
+};
 
 export default App;

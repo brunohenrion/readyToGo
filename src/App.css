@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+
+header {
+  border: #e5e5e5 solid 1px;
+  width: 1800px;
+  height: 193px;
+  display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header img {
+  width: 100px;
+  height: 70px;
+  margin-top: 68px;
+  margin-left: 123px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header h1 {
+  font-family: "MontSerrat", sans-serif;
+  width: 298px;
+  height: 59px;
+  font-size: 48px;
+  margin-top: 74px;
+  margin-left: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.group {
+  display: flex;
+  justify-content: space-around;
+}
+
+.columnleft {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 40px;
+  margin-left: 300px;
+  margin-bottom: 180px;
+  gap: 50px;
+}
+.columnright {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  margin-right: 300px;
+  gap: 50px;
+}
+
+.noway {
+  margin-top: 150px;
+  margin-right: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.button1 {
+  border: #908f8f solid 1px;
+  font-size: 75px;
+}
+.button2 {
+  border: #908f8f solid 1px;
+  font-size: 70px;
+}
+.button3 {
+  border: #908f8f solid 1px;
+  font-size: 75px;
+}
+.button4 {
+  border: #908f8f solid 1px;
+  font-size: 70px;
+}
+.button5 {
+  border: #908f8f solid 1px;
+  font-size: 75px;
+}
+.button6 {
+  border: #908f8f solid 1px;
+  font-size: 70px;
+}
+
+.nowaybutton {
+  font-size: 48px;
   color: white;
+  width: 250px;
+  height: 145.83px;
 }
 
-.App-link {
-  color: #61dafb;
+.reset {
+  background: aquamarine;
+}
+footer p {
+  font-family: "MontSerrat", sans-serif;
+  font-size: 15px;
+  margin-left: 610px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span {
+  font-weight: bolder;
 }
